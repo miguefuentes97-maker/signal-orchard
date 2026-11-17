@@ -1,0 +1,2 @@
+# Preserve the exact submitted bytes across Windows and Linux checkouts.
+* -text

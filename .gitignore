@@ -1,0 +1,11 @@
+/preflight/
+/out/
+/out-second/
+/private/
+/release/
+/DELIVERY_REVIEW.md
+/VALIDATION.md
+*.tar
+*.tar.gz
+*.jsonl
+*.log

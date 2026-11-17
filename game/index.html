@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#193f35">
+  <title>Signal Orchard — a garden of light</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./engine.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <button id="home" class="wordmark" aria-label="Signal Orchard home"><span class="sunmark">✳</span> SIGNAL ORCHARD</button>
+      <div class="top-caption">A SMALL GARDEN. A LITTLE LIGHT.</div>
+      <nav aria-label="Game settings">
+        <button id="levels-button">The orchard <span aria-hidden="true">↗</span></button>
+        <button id="help-button" aria-label="How to play">?</button>
+        <button id="sound-button" aria-pressed="false">Sound off</button>
+        <button id="motion-button" aria-pressed="false">Motion on</button>
+      </nav>
+    </header>
+    <main id="main"></main>
+    <footer><span>HAND-TENDED PUZZLES · 01—08</span><span>Take your time. Good things grow slowly.</span><span id="save-status">Progress stays on this device</span></footer>
+  </div>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="modal" hidden></div>
+</body>
+</html>
